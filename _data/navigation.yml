@@ -1,12 +1,14 @@
 # main links
 main:
   - title: "Getting Started"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/    
+    url: /getting-started/ 
   - title: "Documentation"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/    
+    url: /docs/
   - title: "Project Info"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /project-info/
   - title: "Javadocs"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/    
+    url: /javadocs/
+  - title: "News"
+    url: /news/    
   - title: "Sitemap"
     url: /sitemap/
