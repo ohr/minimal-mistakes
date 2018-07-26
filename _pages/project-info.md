@@ -3,11 +3,8 @@ title: Project Info
 layout: single
 permalink: /project-info/
 sidebar:
-  - image: info.jpg
-    text: Information about the IPF project
+  - image: assets/images/info.jpg
 ---
-
-## About
 
 The Open eHealth Integration Platform (IPF) provides interfaces for health-care related integration solutions.
 An prominent example of an healthcare-related use case of IPF is the implementation of interfaces for transactions specified
@@ -69,7 +66,7 @@ The javadocs can be obtained [here](apidocs/index.html).
 
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0
-[development]: development.html
+[development]: /development/
 [ipf-github]: https://github.com/oehf/ipf
 [ihe]: https://www.ihe.net
 [Migration Instructions]: migration.html
