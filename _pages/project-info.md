@@ -66,7 +66,7 @@ The javadocs can be obtained [here](apidocs/index.html).
 
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0
-[development]: /development/
+[development]: ../development/
 [ipf-github]: https://github.com/oehf/ipf
 [ihe]: https://www.ihe.net
 [Migration Instructions]: migration.html
