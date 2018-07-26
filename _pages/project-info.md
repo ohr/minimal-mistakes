@@ -1,6 +1,10 @@
 ---
+title: Project Info
 layout: single
 permalink: /project-info/
+sidebar:
+  - image: info.jpg
+    text: Information about the IPF project
 ---
 
 ## About
@@ -9,10 +13,8 @@ The Open eHealth Integration Platform (IPF) provides interfaces for health-care 
 An prominent example of an healthcare-related use case of IPF is the implementation of interfaces for transactions specified
 in Integrating the Healthcare Enterprise ([IHE][ihe]) profiles.
 
-IPF can be easily embedded into any Java application and additionally supports deployments inside OSGi environments.
-
-IPF is built upon and extends the [Apache Camel](https://camel.apache.org) routing and mediation engine. It has an application programming layer
-based on the [Groovy](https://www.groovy-lang.org) programming language and comes with comprehensive support for message processing and connecting
+IPF is built upon and extends the [Apache Camel](https://camel.apache.org) routing and mediation engine. 
+It comes with comprehensive support for message processing and connecting
 systems in the eHealth domain. IPF provides domain-specific languages (DSLs) for implementing
 [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/)
 in general-purpose as well as healthcare-specific integration solutions.
@@ -40,6 +42,7 @@ If you are using previous versions of IPF and want to update:
 
 * As XDS.a transactions have been retired by IHE, all functionality related with ITI-14, ITI-15, ITI-16 and ITI-17
 have been removed. This includes the ebXML/ebRS 2.x model classes.
+{: .notice--warning}
  
 ## Added modules
 
