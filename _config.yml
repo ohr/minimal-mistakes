@@ -11,12 +11,12 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "IPF eHealth Integration Platform"
+title                    : "IPF Open eHealth Integration Platform"
 title_separator          : "-"
 name                     : "Open eHealth Foundation"
 description              : "eHealth Standards on steroids."
@@ -275,4 +275,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false      
+      author_profile: false
+      sidebar:
+        title: Navigation
+        nav: sidebar

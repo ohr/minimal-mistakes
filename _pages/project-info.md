@@ -2,8 +2,12 @@
 title: Project Info
 layout: single
 permalink: /project-info/
-sidebar:
-  - image: assets/images/info.jpg
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.1"
+  overlay_image: /assets/images/info2.jpg
+toc: true
+toc_icon: align-left  
 ---
 
 The Open eHealth Integration Platform (IPF) provides interfaces for health-care related integration solutions.
@@ -16,14 +20,22 @@ systems in the eHealth domain. IPF provides domain-specific languages (DSLs) for
 [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/)
 in general-purpose as well as healthcare-specific integration solutions.
 
+## License
+
+IPF code is Open Source and licensed under [Apache license][apache-license].
+
 ## Development
 
 [Contribute][development] by reporting issues, suggesting new features, or forking the
 Git repository on [GitHub][ipf-github] and provide some good pull requests!
 
-## License
+## What's New
 
-IPF code is Open Source and licensed under [Apache license][apache-license].
+The current version of IPF is 3.5.1.
+
+See the list of fixed Github issues for an overview:
+* Fixes for [3.5.1](https://github.com/oehf/ipf/milestone/14?closed=1)
+* Fixes for [3.5](https://github.com/oehf/ipf/milestone/12?closed=1)
 
 ## Update Instructions
 
@@ -37,7 +49,7 @@ If you are using previous versions of IPF and want to update:
 
 ## Removed functionality
 
-* As XDS.a transactions have been retired by IHE, all functionality related with ITI-14, ITI-15, ITI-16 and ITI-17
+As XDS.a transactions have been retired by IHE, all functionality related with ITI-14, ITI-15, ITI-16 and ITI-17
 have been removed. This includes the ebXML/ebRS 2.x model classes.
 {: .notice--warning}
  
@@ -55,13 +67,16 @@ IPF 3.5.1 deprecates the following modules:
  * `ipf-commons-ihe-fhir-dstu2`
  * `ipf-platform-camel-ihe-fhir-dstu2`
 
+## Issue Tracking
+
+Issue tracking is done in github. For current issues check [https://github.com/oehf/ipf/issues](https://github.com/oehf/ipf/issues).
+Questions? Please direct your issues to the [IPF User Google Group](https://groups.google.com/forum/#!forum/ipf-user). 
+
 These modules will be removed as soon as FHIR r4 support has been included.
 
 ## Javadocs
 
 The javadocs can be obtained [here](apidocs/index.html).
-
-
 
 
 

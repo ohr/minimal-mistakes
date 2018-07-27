@@ -12,3 +12,25 @@ main:
     url: /news/    
   - title: "Sitemap"
     url: /sitemap/
+
+sidebar:
+  - title: "Main Documentation"
+    children:
+      - title: "Getting Started"
+        url: /getting-started/    
+      - title: "Documentation"
+        url: /docs/
+      - title: "Project Info"
+        url: /project-info/
+      - title: "Javadocs"
+        url: /javadocs/  
+  - title: "HL7 and Groovy"
+    children:  
+      - title: "HL7 Message Processing with Groovy"
+        url: /docs/hl7-groovy/
+      - title: "HL7 Groovy DSL"
+        url: /docs/hl7-groovy-dsl/
+      - title: "Functional Groovy extensions to HAPI"
+        url: /docs/hl7-groovy-extensions/ 
+      - title: "HL7 Message Validation with Groovy"
+        url: /docs/hl7-groovy-validation/ 
