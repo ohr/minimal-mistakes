@@ -160,6 +160,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - _src
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
@@ -174,8 +175,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
-
+incremental: true
 
 # Markdown Processing
 kramdown:

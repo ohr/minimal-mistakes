@@ -24,6 +24,10 @@ sidebar:
         url: /project-info/
       - title: "Javadocs"
         url: /javadocs/  
+  - title: "IHE Integration Profiles"
+    children:  
+      - title: "Component Overview"
+        url: /docs/ihe/   
   - title: "HL7 and Groovy"
     children:  
       - title: "HL7 Message Processing with Groovy"

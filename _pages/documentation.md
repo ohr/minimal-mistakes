@@ -30,18 +30,19 @@ Other IPF features provide part of the underlying foundation or supporting funct
 | [Dynamic Feature Registration][] | Aids in building up modular integration solutions where each module contributes routes, services etc. to the overall application |
 
 
-IPF comes with a number of [Spring Boot Starters](../boot/) that support running eHealth applications
+IPF comes with a number of [Spring Boot Starters][] that support running eHealth applications
 in the Spring Boot runtime environment.
 
 
-[Support for eHealth integration profiles]: ipf-platform-camel-ihe/index.html
+[Support for eHealth integration profiles]: ihe/
 [Groovy]: hl7-groovy/
 [Kotlin]: hl7-kotlin/
 [HL7 Message translation]: ipf-commons-ihe-hl7v3/index.html
-[DICOM Audit Support]: /audit/
+[DICOM Audit Support]: audit/
 [FHIR support]: ipf-platform-camel-ihe-fhir-core/index.html
 [CDA Support]: ipf-modules-cda/index.html
 [CDA processing Camel routes]: ipf-platform-camel-cda/index.html
 [Core Features]: ipf-platform-camel-core/index.html
 [Code System Mapping]: ipf-commons-map/index.html
 [Dynamic Feature Registration]: dynamic.html
+[Spring Boot Starters]: boot/

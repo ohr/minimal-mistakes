@@ -1,8 +1,8 @@
 ---
 title: DICOM audit support
 layout: single
-permalink: /audit/
-classes:wide
+permalink: /docs/boot/
+classes: wide
 ---
 
 [Spring Boot][] is a framework to create stand-alone, production-grade Spring based applications

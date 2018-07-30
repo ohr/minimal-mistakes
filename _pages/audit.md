@@ -1,7 +1,7 @@
 ---
 title: DICOM audit support
 layout: single
-permalink: /audit/
+permalink: /docs/audit/
 toc: true
 toc_icon: align-left  
 ---

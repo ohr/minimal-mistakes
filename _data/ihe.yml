@@ -1,0 +1,143 @@
+iti8pix:
+  transaction: ITI-8
+  link: iti8pix
+  profile: PIX
+  description: Patient Identity Feed
+  component: pix-iti8
+  transport: MLLP(S)
+  format: HL7 v2.3.1
+  client-actor: Patient Identity Source
+  server-actor: Patient Identifier Cross-Reference Manager
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.8
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti8xds:
+  transaction: ITI-8
+  link: iti8xds
+  profile: XDS
+  description: Patient Identity Feed
+  component: xds-iti8
+  transport: MLLP(S)
+  format: HL7 v2.3.1
+  client-actor: Patient Identity Source
+  server-actor: Document Registry
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.8
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti9:
+  transaction: ITI-9
+  link: iti9
+  profile: PIX
+  description: PIX Query
+  component: pix-iti9
+  transport: MLLP(S)
+  format: HL7 v2.5
+  client-actor: Patient Identifier Cross-Reference Consumer
+  server-actor: Patient Identifier Cross-Reference Manager
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.9
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti10:
+  transaction: ITI-10
+  link: iti10
+  profile: PIX
+  description: PIX Update Notfication
+  component: pix-iti10
+  transport: MLLP(S)
+  format: HL7 v2.5
+  client-actor: Patient Identifier Cross-Reference Manager
+  server-actor: Patient Identifier Cross-Reference Consumer
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.10
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti18:  
+  transaction: ITI-18
+  link: iti18
+  profile: XDS
+  description: Registry Stored Query
+  component: xds-iti18
+  transport: SOAP/HTTP(S)
+  format: ebXML
+  client-actor: Document Consumer
+  server-actor: Document Registry
+  module: ipf-platform-camel-ihe-xds
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.18.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti19:  
+  transaction: ITI-19
+  link: iti19
+  profile: ATNA
+  description: Authenticate Node
+  component: n/a
+  transport: n/a
+  format: n/a
+  client-actor: Secure Node
+  server-actor: Secure Node
+  module: ipf-platform-camel-ihe-atna
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.19.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti20: 
+  transaction: ITI-20
+  link: iti20
+  profile: ATNA
+  description: Record Audit Event
+  component: n/a
+  transport: Syslog/TLS
+  format: DICOM/IHE Audit Message
+  client-actor: Secure Application
+  server-actor: Audit Record Repository
+  module: ipf-platform-camel-ihe-atna
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.20.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti21:
+  transaction: ITI-21
+  link: iti21
+  profile: PDQ
+  description: Patient Demographics Query
+  component: pdq-iti21
+  transport: MLLP(S)
+  format: HL7 v2.5
+  client-actor: Patient Demographics Consumer
+  server-actor: Patient Demographics Supplier
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.21.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti22:
+  transaction: ITI-22
+  link: iti22
+  profile: PDQ
+  description: Patient Demographics and Visit Query
+  component: pdq-iti22
+  transport: MLLP(S)
+  format: HL7 v2.5
+  client-actor: Patient Demographics Consumer
+  server-actor: Patient Demographics Supplier
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2a , Section 3.22.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf
+iti30:
+  transaction: ITI-30
+  link: iti30
+  profile: PAM
+  description: Patient Identity Management
+  component: pam-iti30
+  transport: MLLP(S)
+  format: HL7 v2.5
+  client-actor: Patient Demographics Source
+  server-actor: Patient Demographics Consumer
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2b , Section 3.30.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf
+iti31:
+  transaction: ITI-31
+  link: iti31
+  profile: PAM
+  description: Patient Encounter Management
+  component: pam-iti31
+  transport: MLLP(S)
+  format: HL7 v2.5
+  client-actor: Patient Encounter Source
+  server-actor: Patient Encounter Consumer
+  module: ipf-platform-camel-ihe-mllp
+  section:  IHE IT Infrastructure Technical Framework, Volume 2b , Section 3.31.
+  section-link: https://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf  
