@@ -44,13 +44,9 @@ Every Audit Message and Audit Message builder also has a `validate` method that 
 restrictions defined by DICOM or IHE.
 
 The `AuditMessageBuilder` implementations are modelled corresponding to the definitions of the
-[DICOM Specific Audit Messages](http://dicom.nema.org/medical/dicom/current/output/html/part15.html#sect_A.5.3).
+[DICOM Specific Audit Messages](http://dicom.nema.org/medical/dicom/current/output/html/part15.html#sect_A.5.3). The delegate builder class `IHEAuditMessageBuilder` has builder sub classes that correspond with the IHE [ITI specification, Volume 2a](http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf), section 3.20.4.1. 
 
-The delegate builder class `IHEAuditMessageBuilder` has builder sub classes that correspond with
-the IHE [ITI specification, Volume 2a](http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2a.pdf), section 3.20.4.1. 
-
-The DICOM serialization strategies produce XML files that validate against the schema of the respective revision of
-the [DICOM Audit Message Schema](http://dicom.nema.org/medical/dicom/current/output/html/part15.html#sect_A.5.1).
+The DICOM serialization strategies produce XML files that validate against the schema of the respective revision of the [DICOM Audit Message Schema](http://dicom.nema.org/medical/dicom/current/output/html/part15.html#sect_A.5.1).
 
 For more details on the API, please study the [javadocs](../apidocs/org/openehealth/ipf/commons/audit/package-frame.html).
 
@@ -94,16 +90,15 @@ new SecurityAlertBuilder(EventOutcomeIndicator.Success, null, EventTypeCode.User
 
 ## Hints
 
-* The `org.openehealth.ipf.commons.audit.utils.AuditUtils` class contains static methods to obtain
- runtime information like process ID, current user, local host and IP address.
+The `org.openehealth.ipf.commons.audit.utils.AuditUtils` class contains static methods to obtain
+runtime information like process ID, current user, local host and IP address.
 
 
 ## Configuration
 
 The `AuditContext` interface (and its [DefaultAuditContext](../apidocs/org/openehealth/ipf/commons/audit/DefaultAuditContext.html) implementation) 
 is the only place to configure static details for auditing, e.g. whether auditing is activated, the location of the Audit Repository, or 
-the transmission protocol. It also allows to setup strategies for serialization, whether to send synchronously or 
-asynchronously, and how errors are handled.
+the transmission protocol. It also allows to setup strategies for serialization, whether to send synchronously or  asynchronously, and how errors are handled.
 
 ### Generic properties
 
