@@ -86,13 +86,13 @@ This is an example on how to use the component on the consumer side:
 {: .notice--info}
 
 
-[ATNA auditing]: ../ipf-platform-camel-ihe/atna.html
-[Message validation]: ../ipf-platform-camel-ihe/messageValidation.html
-[HL7v2 Codec]: codec.html
-[Message types and exception handling]: messageTypes.html
-[Secure transport]: secureTransport.html
-[File-Based payload logging]: payloadLogging.html
-[Interceptor chain configuration]: interceptorChain.html
-[Segment fragmentation]: segmentFragmentation.html
-[Unsolicited request message fragmentation]: unsolicitedFragmentation.html
+[ATNA auditing]: ../atna/
+[Message validation]: ../messageValidation/
+[HL7v2 Codec]: ../codec/
+[Message types and exception handling]: ../hl7v2MessageTypes/
+[Secure transport]: ../hl7v2SecureTransport/
+[File-Based payload logging]: ../hl7v2PayloadLogging/
+[Interceptor chain configuration]: ../interceptorChain/
+[Segment fragmentation]: ../segmentFragmentation/
+[Unsolicited request message fragmentation]: ../unsolicitedFragmentation/
 
