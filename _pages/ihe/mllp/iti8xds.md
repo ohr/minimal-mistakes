@@ -92,7 +92,7 @@ This is an example on how to use the component on the consumer side:
 [Message types and exception handling]: ../hl7v2MessageTypes/
 [Secure transport]: ../hl7v2SecureTransport/
 [File-Based payload logging]: ../hl7v2PayloadLogging/
-[Interceptor chain configuration]: ../interceptorChain/
+[Interceptor chain configuration]: ../hl7v2InterceptorChain/
 [Segment fragmentation]: ../segmentFragmentation/
 [Unsolicited request message fragmentation]: ../unsolicitedFragmentation/
 

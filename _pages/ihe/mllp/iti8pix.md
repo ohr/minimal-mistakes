@@ -50,7 +50,7 @@ accessed by the given producer. URI parameters controlling the transaction featu
 ## HL7v2 Codec
 
 All HL7v2-based transactions are realized using the [camel-mina2](https://camel.apache.org/mina2.html) and [camel-hl7](https://camel.apache.org/hl7.html)
-components and requires that an [HL7v2 Codec](codec.html) is available in the Camel registry.
+components and requires that an [HL7v2 Codec][] is available in the Camel registry.
 
 ## Example
 
@@ -92,7 +92,7 @@ This is an example on how to use the component on the consumer side:
 [Message types and exception handling]: ../hl7v2MessageTypes/
 [Secure transport]: ../hl7v2SecureTransport/
 [File-Based payload logging]: ../hl7v2PayloadLogging/
-[Interceptor chain configuration]: ../interceptorChain/
+[Interceptor chain configuration]: ../hl7v2InterceptorChain/
 [Segment fragmentation]: ../segmentFragmentation/
 [Unsolicited request message fragmentation]: ../unsolicitedFragmentation/
 

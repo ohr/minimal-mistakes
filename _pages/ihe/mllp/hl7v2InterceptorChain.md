@@ -2,9 +2,7 @@
 title: Interceptors on MLLP endpoints
 layout: single
 permalink: /docs/ihe/hl7v2InterceptorChain/
-toc: true
-toc_icon: align-left
-toc_sticky: true
+classes: wide
 ---
 
 MLLP components are built on top of [camel-mina2](https://camel.apache.org/mina2.html), and their additional eHealth-specific functionality is implemented

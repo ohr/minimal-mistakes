@@ -2,9 +2,7 @@
 title: Message Validation in IPF eHealth Components
 layout: single
 permalink: /docs/ihe/messageValidation/
-toc: true
-toc_icon: align-left
-toc_sticky: true
+classes: wide
 ---
 
 Message validation in IPF eHealth components are implemented by means of validating [Camel processors](https://camel.apache.org/processor.html),

@@ -1,7 +1,7 @@
 ---
 title: File-based Logging of MLLP Message Payload
 layout: single
-permalink: /docs/ihe/hl7v2MessageTypes/
+permalink: /docs/ihe/hl7v2PayloadLogging/
 classes: wide
 ---
 

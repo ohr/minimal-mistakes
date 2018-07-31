@@ -2,9 +2,7 @@
 title: ATNA Auditing in IPF eHealth Components
 layout: single
 permalink: /docs/ihe/atna/
-toc: true
-toc_icon: align-left
-toc_sticky: true
+classes: wide
 ---
 
 

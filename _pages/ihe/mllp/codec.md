@@ -46,7 +46,7 @@ In case you need to set a custom `HapiContext` on the codec, you need to use the
 The character set name set up for the HL7 codec factory will be automatically:
 
 * propagated to the Camel component (see parameter encoding in the table above)
-* stored in the Exchange.CHARSET_NAME property of each Camel exchange
+* stored in the `Exchange.CHARSET_NAME` property of each Camel exchange
 * used in all data transformation activities
 
 
