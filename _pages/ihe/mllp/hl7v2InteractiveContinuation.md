@@ -44,7 +44,7 @@ less than 1, no message splitting will be performed.
 
 Interaction steps performed by the consumer are shown on the diagram below:
 
-![Consumer Interactive Continuation]({{ "/assets/images/conti-consumer-ic.png" | relative_url }})
+{% include figure image_path="/assets/images/conti-consumer-ic.svg" alt="Consumer Interactive Continuation" caption="Consumer Interactive Continuation" width="75%" %}
 
 Fragments are stored internally, whereby the user must provide a storage via the `interactiveContinuationStorage`
 URI parameter of the consumer endpoint. This bean must implement the interface
@@ -84,7 +84,7 @@ and delivers the cumulative response to the caller.
 Optionally — i.e. when the endpoint URI parameter `autoCancel` is set to true — a "continuation cancel" message will be sent
 in order to tell the data provider that the it can safely release its resources. The diagram below shows these interaction steps:
 
-![Producer Interactive Continuation]({{ "/assets/images/conti-producer-ic.png" | relative_url }})
+{% include figure image_path="/assets/images/conti-producer-ic.svg" alt="Producer Interactive Continuation" caption="Producer Interactive Continuation" width="75%" %}
 
 All unexpected fragments will be passed through to the route without changes.
 This rule applies to cancel messages which relate to non-existent interactive chains (represented by their query tags) as well.

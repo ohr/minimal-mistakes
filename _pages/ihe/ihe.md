@@ -54,7 +54,7 @@ required dependencies, usage and parameters.
 |:------------------------|:-----------------|:----------------------|:-----------------------|:-------------      -----------|------------|
 {% for hash in site.data.ihe -%}
   {% assign tx = hash[1] -%}
-| [{{ tx.transaction }}]({{ tx.link }})  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`   | {{ tx.transport }}, {{ tx.format }} | {{ tx.module }} |
+| [{{ tx.transaction }}]({{ tx.link }}/)  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`   | {{ tx.transport }}, {{ tx.format }} | {{ tx.module }} |
 {% endfor %}
 
 

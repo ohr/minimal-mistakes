@@ -28,12 +28,12 @@ This value should be greater than 2 in order to include at least one segment in 
 The producer will perform all necessary actions of the corresponding message exchange pattern to transport these fragments to the receiver, 
 as depicted on the following interaction diagram:
 
-![Producer Unsolicited Fragmentation]({{ "/assets/images/conti-producer-uf.png" | relative_url }})
+{% include figure image_path="/assets/images/conti-producer-uf.svg" alt="Producer Unsolicited Fragmentation" caption="Producer Unsolicited Fragmentation" width="75%" %}
 
 An MLLP-based IPF IHE consumer with enabled segment fragmentation support is able to automatically collect pieces of fragmented requests 
 and put them into the route as a single cumulative request message:
 
-![Consumer Unsolicited Fragmentation]({{ "/assets/images/conti-consumer-uf.png" | relative_url }})
+{% include figure image_path="/assets/images/conti-consumer-uf.svg" alt="Consumer Unsolicited Fragmentation" caption="Consumer Unsolicited Fragmentation" width="75%" %}
 
 The `MSH` segment of the resulting request message is contained in the very first fragment, therefore the corresponding response 
 will contain its message control ID from field `MSH-10` in its field `MSA-2`.
