@@ -76,5 +76,5 @@ You can also provide your own implementation of `org.openehealth.ipf.commons.ihe
 pass an instance with the constructors of the payload loggers instead.
 
 
-[interceptors]: ../hl7v2InterceptorChain/
-[file-based payload logging]: ../payloadLogging/
+[interceptors]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2InterceptorChain.md %}
+[file-based payload logging]: {{ site.baseurl }}{% link _pages/ihe/payloadLogging.md %}

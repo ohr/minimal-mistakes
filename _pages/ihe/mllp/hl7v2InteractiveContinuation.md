@@ -1,10 +1,8 @@
 ---
 title: HL7 v2 interactive response continuation in MLLP-based IPF IHE components
 layout: single
-permalink: /docs/ihe/interactiveContinuation/
-toc: true
-toc_icon: align-left
-toc_sticky: true
+permalink: /docs/ihe/hl7v2InteractiveContinuation/
+classes: wide
 ---
 
 
@@ -100,4 +98,4 @@ unsolicited fragmentation, and the response represents an interactive continuati
 the request for the second response fragment using unsolicited fragmentation, because `DSC-1` will contain a non-empty value.
 
 
-[unsolicited request message fragmentation]: ../unsolicitedFragmentation/
+[unsolicited request message fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/unsolicitedFragmentation.md %}

@@ -1,13 +1,13 @@
 ---
-title: xds-iti8 component
+title: pix-iti9 component
 layout: single
-permalink: /docs/ihe/iti8xds/
+permalink: /docs/ihe/iti9/
 toc: true
 toc_icon: align-left
 toc_sticky: true
 ---
 
-{% assign tx = site.data.ihe['iti8xds'] %}
+{% assign tx = site.data.ihe['iti9'] %}
 
 The {{ tx.component }} component provides interfaces for actors of the *{{ tx.description }}* IHE transaction ({{ tx.transaction }}),
 which is described in the [{{ tx.section }}]({{ tx.section-link }}).
@@ -16,7 +16,7 @@ which is described in the [{{ tx.section }}]({{ tx.section-link }}).
 
 The transaction defines the following actors:
 
-{% include figure image_path="/assets/images/iti8pix.png" alt="ITI-8 actors" caption="ITI-8 transaction and actors " %}
+{% include figure image_path="/assets/images/iti9.png" alt="ITI-9 actors" caption="ITI-9 transaction and actors " %}
 
 Producer side corresponds to the *{{ tx.client-actor }}* actor.
 Consumer side corresponds to both *{{ tx.server-actor }}* actor.
@@ -79,11 +79,6 @@ This is an example on how to use the component on the consumer side:
 * [Segment fragmentation][]
 * [Unsolicited request message fragmentation][]
 
-## Remarks for this component
-
-**Watch out!** {{ tx.transaction }} is the only HL7v2-based transaction that uses HL7 v2.3.1, while most of the others use HL7 v2.5
-{: .notice--info}
-
 
 [ATNA auditing]: {{ site.baseurl }}{% link _pages/ihe/atna.md %}
 [Message validation]: {{ site.baseurl }}{% link _pages/ihe/messageValidation.md %}
@@ -94,3 +89,4 @@ This is an example on how to use the component on the consumer side:
 [Interceptor chain configuration]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2InterceptorChain.md %}
 [Segment fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/segmentFragmentation.md %}
 [Unsolicited request message fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/unsolicitedFragmentation.md %}
+

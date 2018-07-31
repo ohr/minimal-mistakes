@@ -125,8 +125,8 @@ of the interceptor is returned. For convenience, there is an abstract class `Int
 that takes the interceptor class as constructor parameter and instantiates interceptor instances by calling `Class#newInstance()`.
 
 
-[unsolicited request fragmentation]: ../unsolicitedFragmentation/
-[interactive response continuation]: ../interactiveContinuation/
-[segment fragmentation]: ../segmentFragmentation/
-[segment defragmentation]: ../segmentFragmentation/
-[ATNA auditing]: ../atna/
+[unsolicited request fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/unsolicitedFragmentation.md %}
+[interactive response continuation]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2InteractiveContinuation.md %}
+[segment fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/segmentFragmentation.md %}
+[segment defragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/segmentFragmentation.md %}
+[ATNA auditing]: {{ site.baseurl }}{% link _pages/ihe/atna.md %}

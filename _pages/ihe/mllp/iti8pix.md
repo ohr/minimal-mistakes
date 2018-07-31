@@ -16,7 +16,7 @@ which is described in the [{{ tx.section }}]({{ tx.section-link }}).
 
 The transaction defines the following actors:
 
-![ITI-8 actors]({{ "/assets/images/iti8pix.png" | relative_url }})
+{% include figure image_path="/assets/images/iti8pix.png" alt="ITI-8 actors" caption="ITI-8 transaction and actors " %}
 
 Producer side corresponds to the *{{ tx.client-actor }}* actor.
 Consumer side corresponds to both *{{ tx.server-actor }}* actor.
@@ -86,13 +86,13 @@ This is an example on how to use the component on the consumer side:
 {: .notice--info}
 
 
-[ATNA auditing]: ../atna/
-[Message validation]: ../messageValidation/
-[HL7v2 Codec]: ../codec/
-[Message types and exception handling]: ../hl7v2MessageTypes/
-[Secure transport]: ../hl7v2SecureTransport/
-[File-Based payload logging]: ../hl7v2PayloadLogging/
-[Interceptor chain configuration]: ../hl7v2InterceptorChain/
-[Segment fragmentation]: ../segmentFragmentation/
-[Unsolicited request message fragmentation]: ../unsolicitedFragmentation/
+[ATNA auditing]: {{ site.baseurl }}{% link _pages/ihe/atna.md %}
+[Message validation]: {{ site.baseurl }}{% link _pages/ihe/messageValidation.md %}
+[HL7v2 Codec]: {{ site.baseurl }}{% link _pages/ihe/mllp/codec.md %}
+[Message types and exception handling]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2MessageTypes.md %}
+[Secure transport]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2SecureTransport.md %}
+[File-Based payload logging]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2PayloadLogging.md %}
+[Interceptor chain configuration]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2InterceptorChain.md %}
+[Segment fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/segmentFragmentation.md %}
+[Unsolicited request message fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/unsolicitedFragmentation.md %}
 
