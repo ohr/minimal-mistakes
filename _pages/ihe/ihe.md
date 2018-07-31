@@ -50,11 +50,11 @@ IHE Profiles are grouped by their underlying technical foundation, particularly 
 The table below references all supported eHealth transactions. Click on the link in the first column for details about
 required dependencies, usage and parameters.
 
-| Transaction             | Profile          | Description           | IPF Component          | Transport          | Message Format  |
-|:------------------------|:-----------------|:----------------------|:-----------------------|:-------------------|:----------------|
+| Transaction             | Profile          | Description           | IPF Component          | Transport          | Message Format  | IPF Module |
+|:------------------------|:-----------------|:----------------------|:-----------------------|:-------------------|:----------------|------------|
 {% for hash in site.data.ihe -%}
   {% assign tx = hash[1] -%}
-| [{{ tx.transaction }}]({{ tx.link }})  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`   | {{ tx.transport }} | {{ tx.format }} |
+| [{{ tx.transaction }}]({{ tx.link }})  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`   | {{ tx.transport }} | {{ tx.format }} | {{ tx.module }} |
 {% endfor %}
 
 
