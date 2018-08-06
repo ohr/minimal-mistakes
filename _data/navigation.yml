@@ -27,7 +27,9 @@ sidebar:
   - title: "IHE Integration Profiles"
     children:  
       - title: "Component Overview"
-        url: /docs/ihe/   
+        url: /docs/ihe/
+      - title: "FHIR"
+        url: /docs/ihe/fhir
   - title: "HL7 and Groovy"
     children:  
       - title: "HL7 Message Processing with Groovy"

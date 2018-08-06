@@ -39,7 +39,7 @@ in the Spring Boot runtime environment.
 [Kotlin]: hl7-kotlin/
 [HL7 Message translation]: ipf-commons-ihe-hl7v3/index.html
 [DICOM Audit Support]: audit/
-[FHIR support]: ipf-platform-camel-ihe-fhir-core/index.html
+[FHIR support]: ihe/fhir/
 [CDA Support]: ipf-modules-cda/index.html
 [CDA processing Camel routes]: ipf-platform-camel-cda/index.html
 [Core Features]: ipf-platform-camel-core/index.html

@@ -23,10 +23,8 @@ In this case, you _must_ use the `auditContext` parameter.
 ## Auditor Configuration
 
 As of IPF 3.5, all details regarding ATNA auditing is contained the the respective IHE transaction modules. The only
-configuration required is the `AuditContext`.
+configuration required is the `AuditContext`:
 
-In order to let the endpoint know *how* auditing should be performed, auditor beans have to be defined.
-Each of the currently supported IHE actor types has a corresponding singleton auditor, i.e. the following set is available:
 
 ```xml
 <beans xmlns="http://www.springframework.org/schema/beans"

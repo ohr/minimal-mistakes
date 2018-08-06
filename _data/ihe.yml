@@ -570,6 +570,19 @@ pcc1:
   module: ipf-platform-camel-ihe-hl7v3
   section:   IHE Patient Care Coordination Technical Framework Supplement, Query for Existing Data (QED), Section 3.2.
   section-link: https://www.ihe.net/uploadedFiles/Documents/PCC/IHE_PCC_Suppl_QED.pdf
+pcc44:
+  transaction: PCC-44
+  link: pcc44
+  profile: QEDm
+  description: Mobile Query Existing Data
+  component: qedm-pcc44
+  transport: REST/HTTP(S)
+  format: FHIR
+  client-actor: Clinical Data Consumer
+  server-actor: Clinical Data Source
+  module: ipf-platform-camel-ihe-fhir-stu3-qedm
+  section:   IHE Patient Care Coordination Technical Framework Supplement, Query for Existing Data Mobile (QEDm), Section 3.44.
+  section-link: https://www.ihe.net/uploadedFiles/Documents/PCC/IHE_PCC_Suppl_QEDm.pdf
 pcd01:
   transaction: PCD-01
   link: pcd01

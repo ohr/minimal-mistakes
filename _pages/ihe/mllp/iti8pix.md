@@ -7,7 +7,7 @@ toc_icon: align-left
 toc_sticky: true
 ---
 
-{% assign tx = site.data.ihe['iti8pix'] %}
+{% assign tx = site.data.ihe["iti8pix"] %}
 
 The {{ tx.component }} component provides interfaces for actors of the *{{ tx.description }}* IHE transaction ({{ tx.transaction }}),
 which is described in the [{{ tx.section }}]({{ tx.section-link }}).
@@ -16,7 +16,11 @@ which is described in the [{{ tx.section }}]({{ tx.section-link }}).
 
 The transaction defines the following actors:
 
-{% include figure image_path="/assets/images/iti8pix.svg" alt="ITI-8 actors" caption="ITI-8 transaction and actors " %}
+{% capture imagepath -%}
+/assets/images/{{tx.link}}.svg
+{% endcapture %}
+
+{% include figure image_path="/assets/images/iti8pix.svg alt="ITI-8 actors" caption="ITI-8 transaction and actors " %}
 
 Producer side corresponds to the *{{ tx.client-actor }}* actor.
 Consumer side corresponds to both *{{ tx.server-actor }}* actor.
