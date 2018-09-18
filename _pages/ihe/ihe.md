@@ -45,13 +45,19 @@ The most IPF eHealth components are named according to the profile and the trans
 A special case is the MLLP dispatcher component which allows to accept requests for multiple MLLP-based transactions through a single TCP port.
 
 IHE Profiles are grouped by their underlying technical foundation, particularly by their *message format* and
-*transport protocol* into IPF modules that can be included as dependencies in the Maven project descriptor.
+*transport protocol* into IPF modules that can be included as dependencies in the Maven project descriptor:
+
+* [HL7v2-based transactions]
+* [HL7v3-based transactions]
+* ebXML transactions
+* [FHIR transactions]
+
 
 The table below references all supported eHealth transactions. Click on the link in the first column for details about
 required dependencies, usage and parameters.
 
 | Transaction             | Profile          | Description           | IPF Component          | Transport and Message Format  | IPF Module |
-|:------------------------|:-----------------|:----------------------|:-----------------------|:-------------      -----------|------------|
+|:------------------------|:-----------------|:----------------------|:-----------------------|:------------------------------|------------|
 {% for hash in site.data.ihe -%}
   {% assign tx = hash[1] -%}
 | [{{ tx.transaction }}]({{ tx.link }}/)  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`   | {{ tx.transport }}, {{ tx.format }} | `{{ tx.module }}` |
@@ -105,3 +111,6 @@ The basic pattern for producers is to specify the component name in the URI para
 ```
 
 [IHE]: https://www.ihe.net
+[HL7v2-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v2.md %}
+[HL7v3-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v3.md %}
+[FHIR transactions]: {{ site.baseurl }}{% link _pages/ihe/fhir.md %}
