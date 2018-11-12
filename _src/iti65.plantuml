@@ -4,9 +4,9 @@ hide footbox
 participant "Document Source" as S
 participant "Document Recipient" as R
 
-S -> R : Provide Document Bundle Request Message
+S -> R : Provide Document Bundle Request
 activate R
-R --> S : Provide Document Bundle Response Message
+R --> S : Provide Document Bundle Response
 deactivate R
 
 
