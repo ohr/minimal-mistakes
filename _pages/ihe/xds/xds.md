@@ -15,7 +15,7 @@ The following IHE transactions for XDS are currently supported:
 |:------------------------|:-----------------|:----------------------|:-----------------------|:------------|
 {% for hash in site.data.ihe -%}
   {% assign tx = hash[1] -%}
-  {% if tx.format == "XDS" -%}
+  {% if tx.format == "ebXML" -%}
 | [{{ tx.transaction }}](../{{ tx.link }}/)  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`  | `{{ tx.module }}` |
   {% endif -%}
 {% endfor %}

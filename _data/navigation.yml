@@ -7,7 +7,7 @@ main:
   - title: "Project Info"
     url: /project-info/
   - title: "Javadocs"
-    url: /javadocs/
+    url: /apidocs/
   - title: "News"
     url: /news/    
   - title: "Sitemap"
@@ -23,13 +23,13 @@ sidebar:
       - title: "Project Info"
         url: /project-info/
       - title: "Javadocs"
-        url: /javadocs/  
+        url: /apidocs/
   - title: "IHE Integration Profiles"
     children:  
       - title: "Component Overview"
         url: /docs/ihe/
       - title: "HL7v2"
-        url: /docs/ihe/mllp/
+        url: /docs/ihe/hl7v2/
       - title: "HL7v3"
         url: /docs/ihe/hl7v3/
       - title: "XDS"
