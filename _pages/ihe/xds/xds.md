@@ -19,3 +19,9 @@ The following IHE transactions for XDS are currently supported:
 | [{{ tx.transaction }}](../{{ tx.link }}/)  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`  | `{{ tx.module }}` |
   {% endif -%}
 {% endfor %}
+
+
+**Spring Boot** There is a [Spring Boot starter] for ebXML/XDS-based IHE transactions.
+{: .notice--info}
+
+[Spring Boot starter]: {{ site.baseurl }}{% link _pages/boot/boot-xds.md %}

@@ -20,4 +20,8 @@ The following IHE transactions for HL7v3 are currently supported:
   {% endif -%}
 {% endfor %}
 
+**Spring Boot** There is a [Spring Boot starter] for HL7v3-based IHE transactions.
+{: .notice--info}
+
+[Spring Boot starter]: {{ site.baseurl }}{% link _pages/boot/boot-hl7v3.md %}
 [translators]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3Translators.md %}

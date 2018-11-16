@@ -60,8 +60,8 @@ into your project descriptor.
 | `servlet.response-highlighting`  | true      | Whether color-coding responses queried from a Web Browser is enabled |
 | `servlet.strict`           | false           | Whether FHIR resource parsing is strict |
 
-See [ipf-spring-boot-starter]({{ site.baseurl }}{% link _pages/boot/boot.md %}) and [ipf-atna-spring-boot-starter]({{ site.baseurl }}{% link _pages/boot/boot-atna.md %}) for
-additional properties.
+
+See [ipf-spring-boot-starter] and [ipf-atna-spring-boot-starter] for additional properties.
 
 The starter module does *not* set up a Camel servlet for serving MHD ITI-68 (Retrieve Document) transactions.
 Camel provides a Spring boot starter module for this:
@@ -83,3 +83,5 @@ Camel provides a Spring boot starter module for this:
 
 
 [Spring Boot]: https://projects.spring.io/spring-boot/
+[ipf-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot.md %}
+[ipf-atna-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot-atna.md %}

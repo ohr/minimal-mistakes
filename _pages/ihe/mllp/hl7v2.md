@@ -20,3 +20,8 @@ The following IHE transactions for HL7v2 are currently supported:
 | [{{ tx.transaction }}](../{{ tx.link }}/)  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`  | `{{ tx.module }}` |
   {% endif -%}
 {% endfor %}
+
+**Spring Boot** There is a [Spring Boot starter] for HL7v2-based IHE transactions.
+{: .notice--info}
+
+[Spring Boot starter]: {{ site.baseurl }}{% link _pages/boot/boot-hl7.md %}

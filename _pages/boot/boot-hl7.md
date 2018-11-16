@@ -5,7 +5,7 @@ permalink: /docs/boot-hl7/
 classes: wide
 ---
 
-`ipf-hl7-spring-boot-starter` sets up the infrastructure for HL7-based IHE transactions
+`ipf-hl7-spring-boot-starter` sets up the infrastructure for [HL7v2-based IHE transactions].
  
 The dependency on the IPF [Spring Boot] IHE HL7 starter module is:
 
@@ -25,8 +25,8 @@ The dependency on the IPF [Spring Boot] IHE HL7 starter module is:
 Furthermore, if a single `org.springframework.cache.CacheManager` bean is available and the application
 property `ipf.hl7v2.caching` is set to true, the following caching storage beans are set up:
 
-* `interactiveContinuationStorage` for [interactive continuation]({{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2InteractiveContinuation.md %})
-* `unsolicitedFragmentationStorage` for [unsolicited fragmentation]({{ site.baseurl }}{% link _pages/ihe/mllp/unsolicitedFragmentation.md %})
+* `interactiveContinuationStorage` for [interactive continuation]
+* `unsolicitedFragmentationStorage` for [unsolicited fragmentation]
 
 The actual [cache implementation](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-caching.html)
 being used is the one that Spring Boot finds on the classpath.
@@ -39,7 +39,12 @@ being used is the one that Spring Boot finds on the classpath.
 | `convert-line-feed`        | false                 | Whether to convert line feeds to proper segment separators before parsing starts
 | `caching`                  | false                 | Whether to set up caches for paging and unsolicited fragmentation
 
-See [ipf-spring-boot-starter]({{ site.baseurl }}{% link _pages/boot/boot.md %}) and [ipf-atna-spring-boot-starter]({{ site.baseurl }}{% link _pages/boot/boot-atna.md %}) for
-additional properties.
+See [ipf-spring-boot-starter] and [ipf-atna-spring-boot-starter] for additional properties.
 
+
+[ipf-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot.md %}
+[ipf-atna-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot-atna.md %}
+[HL7v2-based IHE transactions]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2.md %}
 [Spring Boot]: https://projects.spring.io/spring-boot/
+[interactive continuation]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2InteractiveContinuation.md %}
+[unsolicited fragmentation]: {{ site.baseurl }}{% link _pages/ihe/mllp/unsolicitedFragmentation.md %}

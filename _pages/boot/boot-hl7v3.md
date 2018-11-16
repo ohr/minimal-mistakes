@@ -5,7 +5,7 @@ permalink: /docs/boot-hl7v3/
 classes: wide
 ---
 
-`ipf-hl7v3-spring-boot-starter` sets up the infrastructure for HL7v3-based IHE transactions
+`ipf-hl7v3-spring-boot-starter` sets up the infrastructure for [HL7v3-based IHE transactions].
  
 The dependency on the IPF [Spring Boot] IHE HL7v3 starter module is:
 
@@ -44,6 +44,7 @@ web service stack including the Camel CXF servlet, so you don't have to care abo
 | `servlet.load-on-startup`  | -1                     | startup order |
 
 
+[HL7v3-based IHE transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3.md %}
 [Spring Boot]: https://projects.spring.io/spring-boot/
 [ipf-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot.md %}
 [ipf-atna-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot-atna.md %}

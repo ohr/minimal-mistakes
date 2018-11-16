@@ -5,7 +5,7 @@ permalink: /docs/boot-xds/
 classes: wide
 ---
 
-`ipf-xds-spring-boot-starter` sets up the infrastructure for XDS-based IHE transactions
+`ipf-xds-spring-boot-starter` sets up the infrastructure for ebXML/XDS-based IHE transactions
  
 The dependency on the IPF [Spring Boot] IHE XDS starter module is:
 
