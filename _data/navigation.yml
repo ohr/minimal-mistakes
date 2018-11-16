@@ -28,8 +28,14 @@ sidebar:
     children:  
       - title: "Component Overview"
         url: /docs/ihe/
+      - title: "HL7v2"
+        url: /docs/ihe/mllp/
+      - title: "HL7v3"
+        url: /docs/ihe/hl7v3/
+      - title: "XDS"
+        url: /docs/ihe/xds/
       - title: "FHIR"
-        url: /docs/ihe/fhir
+        url: /docs/ihe/fhir/
   - title: "HL7 and Groovy"
     children:  
       - title: "HL7 Message Processing with Groovy"

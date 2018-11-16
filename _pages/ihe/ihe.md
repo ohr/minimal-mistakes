@@ -49,7 +49,7 @@ IHE Profiles are grouped by their underlying technical foundation, particularly 
 
 * [HL7v2-based transactions]
 * [HL7v3-based transactions]
-* ebXML transactions
+* [ebXML transactions]
 * [FHIR transactions]
 
 
@@ -113,4 +113,5 @@ The basic pattern for producers is to specify the component name in the URI para
 [IHE]: https://www.ihe.net
 [HL7v2-based transactions]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2.md %}
 [HL7v3-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3.md %}
+[ebXML transactions]: {{ site.baseurl }}{% link _pages/ihe/xds/xds.md %}
 [FHIR transactions]: {{ site.baseurl }}{% link _pages/ihe/fhir/fhir.md %}
