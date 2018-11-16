@@ -22,10 +22,9 @@ The dependency on the IPF [Spring Boot] IHE HPD starter module is:
 |---------------------------|----------------|-----------------------------------------------------|
 |                           |                |
 
-See [ipf-spring-boot-starter]({{ site.baseurl }}{% link _pages/boot/boot.md %}) and [ipf-atna-spring-boot-starter]({{ site.baseurl }}{% link _pages/boot/boot-atna.md %}) for
-additional properties.
+See [ipf-spring-boot-starter] and [ipf-atna-spring-boot-starter] for additional properties.
 
-This starter module also transitively depends on [cxf-spring-boot-starter-jaxws](https://cxf.apache.org/docs/springboot.html) that sets up the CXF
+This starter module also transitively depends on [cxf-spring-boot-starter-jaxws] that sets up the CXF
 web service stack including the Camel CXF servlet, so you don't have to care about this anymore.
 
 `cxf-spring-boot-starter-jaxws` provides the following application properties:
@@ -38,3 +37,6 @@ web service stack including the Camel CXF servlet, so you don't have to care abo
 
 
 [Spring Boot]: https://projects.spring.io/spring-boot/
+[ipf-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot.md %}
+[ipf-atna-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot-atna.md %}
+[cxf-spring-boot-starter-jaxws]: https://cxf.apache.org/docs/springboot.html
