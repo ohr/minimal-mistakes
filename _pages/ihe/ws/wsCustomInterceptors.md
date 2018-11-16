@@ -2,7 +2,7 @@
 title: Deploying custom CXF interceptors in Web Service-based IHE components
 layout: single
 permalink: /docs/ihe/wsCustomInterceptors
-classes:wide
+classes: wide
 ---
 
 IPF provides the possibility to deploy user-defined custom [CXF interceptors] when initializing Web Service-based IHE endpoints.

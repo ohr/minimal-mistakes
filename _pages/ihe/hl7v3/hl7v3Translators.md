@@ -180,7 +180,7 @@ class BridgeRouteBuilder extends SpringRouteBuilder {
 [ITI-10]: {{ site.baseurl }}{% link _pages/ihe/mllp/iti10.md %}
 [ITI-21]: {{ site.baseurl }}{% link _pages/ihe/mllp/iti21.md %}
 
-[ITI-44]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/iti44.md %}
+[ITI-44]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/iti44pixv3.md %}
 [ITI-45]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/iti45.md %}
 [ITI-46]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/iti46.md %}
 [ITI-47]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/iti47.md %}

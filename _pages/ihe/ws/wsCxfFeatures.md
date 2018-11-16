@@ -2,7 +2,7 @@
 title: Adding CXF features to IPF Web Service endpoints
 layout: single
 permalink: /docs/ihe/wsCustomFeatures
-classes:wide
+classes: wide
 ---
 
 

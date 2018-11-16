@@ -264,7 +264,7 @@ public class Iti83TestRouteBuilder extends RouteBuilder {
 [ITI-78]: {{ site.baseurl }}{% link _pages/ihe/fhir/iti78.md %}
 [ITI-83]: {{ site.baseurl }}{% link _pages/ihe/fhir/iti83.md %}
 
-[Mapping Service]: {{ site.baseurl }}{% link _pages/mappings.md %}
+[Mapping Service]: {{ site.baseurl }}{% link _pages/mapping.md %}
 [NamingSystem resources]: https://www.hl7.org/fhir/namingsystem.html
 
 [IHE]: https://www.ihe.net

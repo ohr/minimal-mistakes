@@ -2,7 +2,7 @@
 title: Deployment of Web Service-based IPF IHE consumer endpoints
 layout: single
 permalink: /docs/ihe/wsDeployment
-classes:wide
+classes: wide
 ---
 
 Every project that exposes consumer endpoints of Web Service-based IPF IHE components needs to configure a web application

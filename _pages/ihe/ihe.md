@@ -111,6 +111,6 @@ The basic pattern for producers is to specify the component name in the URI para
 ```
 
 [IHE]: https://www.ihe.net
-[HL7v2-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v2.md %}
-[HL7v3-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v3.md %}
-[FHIR transactions]: {{ site.baseurl }}{% link _pages/ihe/fhir.md %}
+[HL7v2-based transactions]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2.md %}
+[HL7v3-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3.md %}
+[FHIR transactions]: {{ site.baseurl }}{% link _pages/ihe/fhir/fhir.md %}
