@@ -603,7 +603,7 @@ chpidd:
   description: Provider Information Delta Download
   component: ch-pidd
   transport: SOAP/HTTP(S)
-  format: Custom/DSMLv2
+  format: DSMLv2
   client-actor: Provider Information Consumer
   server-actor: Provider Information Directory
   module: ipf-platform-camel-ihe-hpd
@@ -629,7 +629,7 @@ chppq2:
   description: Privacy Policy Retrieve
   component: ch-ppq2
   transport: SOAP/HTTP(S)
-  format: XACML 2.0
+  format: Custom/XACML 2.0
   client-actor: Policy Consumer
   server-actor: Policy Repository
   module: ipf-platform-camel-ihe-xacml20

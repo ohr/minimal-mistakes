@@ -15,14 +15,14 @@ The following IHE transactions for HL7v3 are currently supported:
 |:------------------------|:-----------------|:----------------------|:-----------------------|:------------|
 {% for hash in site.data.ihe -%}
   {% assign tx = hash[1] -%}
-  {% if tx.format == "HL7v3" -%}
+  {% if tx.format == "DSMLv2" -%}
 | [{{ tx.transaction }}](../{{ tx.link }}/)  | {{ tx.profile }} | {{ tx.description }}  | `{{ tx.component }}`  | `{{ tx.module }}` |
   {% endif -%}
 {% endfor %}
 
 **Spring Boot** 
-There is a [Spring Boot starter] for HL7v3-based IHE transactions.
+There is a [Spring Boot starter] for HPD-based IHE transactions.
 {: .notice--info}
 
-[Spring Boot starter]: {{ site.baseurl }}{% link _pages/boot/boot-hl7v3.md %}
+[Spring Boot starter]: {{ site.baseurl }}{% link _pages/boot/boot-hpd.md %}
 [translators]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3Translators.md %}

@@ -21,7 +21,8 @@ The following IHE transactions for HL7v2 are currently supported:
   {% endif -%}
 {% endfor %}
 
-**Spring Boot** There is a [Spring Boot starter] for HL7v2-based IHE transactions.
+**Spring Boot** 
+There is a [Spring Boot starter] for HL7v2-based IHE transactions.
 {: .notice--info}
 
 [Spring Boot starter]: {{ site.baseurl }}{% link _pages/boot/boot-hl7.md %}

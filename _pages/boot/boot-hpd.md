@@ -5,7 +5,7 @@ permalink: /docs/boot-hpd/
 classes: wide
 ---
 
-`ipf-hpd-spring-boot-starter` sets up the infrastructure for transactions of the IHE HPD profile.
+`ipf-hpd-spring-boot-starter` sets up the infrastructure for [HPD-based IHE transactions].
  
 The dependency on the IPF [Spring Boot] IHE HPD starter module is:
 
@@ -40,3 +40,4 @@ web service stack including the Camel CXF servlet, so you don't have to care abo
 [ipf-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot.md %}
 [ipf-atna-spring-boot-starter]: {{ site.baseurl }}{% link _pages/boot/boot-atna.md %}
 [cxf-spring-boot-starter-jaxws]: https://cxf.apache.org/docs/springboot.html
+[HPD-based IHE transactions]: {{ site.baseurl }}{% link _pages/ihe/hpd/hpd.md %}
