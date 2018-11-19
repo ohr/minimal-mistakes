@@ -36,6 +36,8 @@ sidebar:
         url: /docs/ihe/xds/
       - title: "FHIR"
         url: /docs/ihe/fhir/
+      - title: "DSMLv2 (HPD)"
+        url: /docs/ihe/hpd/
       - title: "HL7v2 (SOAP)"
         url: /docs/ihe/pcd01/
   - title: "HL7 and Groovy"
