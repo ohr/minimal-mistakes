@@ -30,14 +30,16 @@ sidebar:
         url: /docs/ihe/
       - title: "HL7v2 (MLLP)"
         url: /docs/ihe/hl7v2/
-      - title: "HL7v3"
+      - title: "HL7v3 (SOAP)"
         url: /docs/ihe/hl7v3/
-      - title: "ebXML (XDS)"
+      - title: "ebXML (SOAP)"
         url: /docs/ihe/xds/
-      - title: "FHIR"
+      - title: "FHIR (REST)"
         url: /docs/ihe/fhir/
-      - title: "DSMLv2 (HPD)"
+      - title: "DSMLv2 (SOAP)"
         url: /docs/ihe/hpd/
+      - title: "XACMLv2.0 (SOAP)"
+        url: /docs/ihe/xacml20/
       - title: "HL7v2 (SOAP)"
         url: /docs/ihe/pcd01/
   - title: "HL7 and Groovy"
