@@ -120,7 +120,7 @@ all extension modules by default before any other configuration takes place.
 
 
 
-[Custom Mappings]: ipf-commons-map/customMappings.html
-[Custom HL7 Model Classes]: ipf-modules-hl7/customModelClasses.html
-[Custom Groovy Extension Modules]: ipf-commons-core/customExtensions.html
-[Custom Route Builders]: ipf-platform-camel-core/customRouteBuilders.html
+[Custom Mappings]: {{ site.baseurl }}{% link _pages/customMappings.md %}
+[Custom HL7 Model Classes]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-customModelClasses.md %}
+[Custom Groovy Extension Modules]: {{ site.baseurl }}{% link _pages/customExtensions.md %}
+[Custom Route Builders]: {{ site.baseurl }}{% link _pages/customRouteBuilders.md %}

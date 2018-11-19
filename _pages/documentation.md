@@ -18,7 +18,7 @@ The following table summarizes the IPF features related to the eHealth domain:
 | [HL7 Message translation][]                          | Translation utilities for translating between HL7v3 and HL7v2 messages for corresponding IHE transactions |
 | [FHIR Support][]                                     | FHIR® – Fast Healthcare Interoperability Resources (hl7.org/fhir) – is a next generation standards framework created by HL7 leveraging the latest web standards and applying a tight focus on implementability. |
 | [DICOM Audit Support][]                              | Support for constructing, serializing and sending DICOM audit messages |
-| [CDA Support][]                                      | Wrapping a number of CDA-related libraries                   |
+| [CDA/MDHT Support][]                                 | Wrapping a number of CDA/MDHT-related libraries                   |
 
 
 Other IPF features provide part of the underlying foundation or supporting functionality:
@@ -34,15 +34,14 @@ IPF comes with a number of [Spring Boot Starters][] that support running eHealth
 in the Spring Boot runtime environment.
 
 
-[Support for eHealth integration profiles]: ihe/
-[Groovy]: hl7-groovy/
-[Kotlin]: hl7-kotlin/
-[HL7 Message translation]: ipf-commons-ihe-hl7v3/index.html
-[DICOM Audit Support]: audit/
-[FHIR support]: ihe/fhir/
-[CDA Support]: ipf-modules-cda/index.html
-[CDA processing Camel routes]: ipf-platform-camel-cda/index.html
-[Core Features]: ipf-platform-camel-core/index.html
-[Code System Mapping]: ipf-commons-map/index.html
-[Dynamic Feature Registration]: dynamic.html
-[Spring Boot Starters]: boot/
+[Support for eHealth integration profiles]: {{ site.baseurl }}{% link _pages/ihe/ihe.md %}
+[Groovy]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy.md %}
+[Kotlin]: {{ site.baseurl }}{% link _pages/hl7-kotlin/hl7-kotlin.md %}
+[HL7 Message translation]: {{ site.baseurl }}{% link _pages/hl7v3/hl7v3Translators.md %}
+[DICOM Audit Support]: {{ site.baseurl }}{% link _pages/audit.md %}
+[FHIR support]: {{ site.baseurl }}{% link _pages/ihe/fhir/fhir.md %}
+[CDA/MDHT Support]: {{ site.baseurl }}{% link _pages/mdht/mdhtSupport.md %}
+[Core Features]: {{ site.baseurl }}{% link _pages/groovy/extensions.md %}
+[Code System Mapping]: {{ site.baseurl }}{% link _pages/mapping.md %}
+[Dynamic Feature Registration]: {{ site.baseurl }}{% link _pages/dynamic.md %}
+[Spring Boot Starters]: {{ site.baseurl }}{% link _pages/boot/boot.md %}

@@ -31,9 +31,12 @@ Git repository on [GitHub][ipf-github] and provide some good pull requests!
 
 ## What's New
 
-The current version of IPF is 3.5.1.
+The current version of IPF is 3.5.3.
 
 See the list of fixed Github issues for an overview:
+
+* Fixes for [3.5.3](https://github.com/oehf/ipf/milestone/16?closed=1)
+* Fixes for [3.5.2](https://github.com/oehf/ipf/milestone/15?closed=1)
 * Fixes for [3.5.1](https://github.com/oehf/ipf/milestone/14?closed=1)
 * Fixes for [3.5](https://github.com/oehf/ipf/milestone/12?closed=1)
 
@@ -81,11 +84,11 @@ The javadocs can be obtained [here](apidocs/index.html).
 
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0
-[development]: ../development/
+[development]: {{ site.baseurl }}{% link _pages/development.md %}
 [ipf-github]: https://github.com/oehf/ipf
 [ihe]: https://www.ihe.net
-[Migration Instructions]: migration.html
-[3.1 Update Instructions]: migration-3.1.html
-[3.2 Update Instructions]: migration-3.2.html
-[3.4 Update Instructions]: migration-3.4.html
-[3.5 Update Instructions]: migration-3.5.html
+[Migration Instructions]: {{ site.baseurl }}{% link _pages/migration/migration.md %}
+[3.1 Update Instructions]: {{ site.baseurl }}{% link _pages/migration/migration-3.1.md %}
+[3.2 Update Instructions]: {{ site.baseurl }}{% link _pages/migration/migration-3.2.md %}
+[3.4 Update Instructions]: {{ site.baseurl }}{% link _pages/migration/migration-3.4.md %}
+[3.5 Update Instructions]: {{ site.baseurl }}{% link _pages/migration/migration-3.5.md %}

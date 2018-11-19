@@ -1,10 +1,9 @@
 ---
-title: Mapping HL7 type values with Groovy
+title: Mapping HL7 type values with Kotlin
 layout: single
-permalink: /docs/hl7-groovy-mapping/ 
+permalink: /docs/hl7-kotlin-mapping/ 
 classes: wide
 ---
-
 
 The [Mapping Service] is part of the IPF Core features. After all, although often used in HL7 processing, code system mapping
 is not a feature that is inherently exclusive for HL7.
@@ -14,7 +13,7 @@ What remains specific to IPF's HL7 v2 support, however, is that the mapping exte
 
 ## Example
 
-Given the following mapping example:
+Given the following mapping example (in Groovy):
 
 ```groovy
 
@@ -40,19 +39,14 @@ Given the following mapping example:
 
 The mapping functions can be directly applied on composite or primitive field objects:
 
-```groovy
+```kotlin
 
     // Mapping primitives
-    assert msg.PV1.patientClass.value == 'I'
-    assert msg.PV1.patientClass.map('encounterType') == 'IMP'
-    assert msg.PV1.patientClass.mapEncounterType() == 'IMP'
-
-    // Together with the HL7 v2 DSL, you can also write
-    assert msg.PV1[2].mapEncounterType() == 'IMP'
+    assertEquals("I", msg["PV1"][2].value)
+    assertEquals("IMP", msg["PV1"][2].map("encounterType")
 
     // To map a Composite field, you can write
-    assert msg.MSH.messageType.mapMessageType() == 'PRPA_IN402001'
-    assert msg.MSH[9].mapMessageType() == 'PRPA_IN402001'
+    assertEquals("PRPA_IN402001", msg["MSH"][9].map("messageType")
 
 ```
 

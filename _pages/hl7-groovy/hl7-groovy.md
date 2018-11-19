@@ -56,7 +56,7 @@ In case you use the IHE MLLP components of IPF, the required HL7 libraries are t
 
 
 [HAPI]: https://hapifhir.github.io/hapi-hl7v2/
-[HL7v2 DSL]: ../hl7-groovy-dsl/
-[HL7v2 API extensions]: ../hl7-groovy-extensions/
-[HL7v2 Validation extensions]: ../hl7-groovy-validation/
+[HL7v2 DSL]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dsl.md %}
+[HL7v2 API extensions]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-extensions.md %}
+[HL7v2 Validation extensions]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-validation.md %}
 [camel-hl7]: https://camel.apache.org/hl7.html

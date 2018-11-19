@@ -75,4 +75,4 @@ The `find`/`findAll` methods are particularly useful together with [smart naviga
 ```
 
 [Groovy]: https://www.groovy-lang.org
-[hl7v2dslSmart]: ../hl7-groovy-dslSmartNavigation/
+[hl7v2dslSmart]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslSmartNavigation.md %}

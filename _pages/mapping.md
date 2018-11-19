@@ -8,7 +8,7 @@ toc_sticky: true
 ---
 
 
-The [`org.openehealth.ipf.commons.map.MappingService`](../apidocs/org/openehealth/ipf/commons/map/MappingService.html)
+The [`org.openehealth.ipf.commons.map.MappingService`](apidocs/org/openehealth/ipf/commons/map/MappingService.html)
 interface deals with the requirement that message processing often
 involves mapping between code systems, i.e. from one set of codes into a corresponding set of codes.
 For example, HL7 version 2 to HL7 version 3 use different code systems for most coded values like message type, gender,
@@ -20,17 +20,17 @@ remote terminology service.
 The `ipf-commons-map` component extends the `java.lang.String` and `java.util.Collection` classes with methods targeted at mapping.
 
 The ipf-commons-map library provides the MappingService implementation
-([`org.openehealth.ipf.commons.map.BidiMappingService`](../apidocs/org/openehealth/ipf/commons/map/BidiMappingService.html)), which implements
+([`org.openehealth.ipf.commons.map.BidiMappingService`](apidocs/org/openehealth/ipf/commons/map/BidiMappingService.html)), which implements
 
 *  bidirectional mapping
 *  mapping of arbitrary objects
 *  definitions of mappings using external Groovy Scripts
 
-Additionally there is [`org.openehealth.ipf.commons.spring.map.SpringBidiMappingService`](../apidocs/org/openehealth/ipf/commons/spring/map/SpringBidiMappingService.html)
+Additionally there is [`org.openehealth.ipf.commons.spring.map.SpringBidiMappingService`](apidocs/org/openehealth/ipf/commons/spring/map/SpringBidiMappingService.html)
 that adds the possibility to configure mapping scripts as Spring `Resource`s.
 
 You are free to implement and use your own service as long as it implements the
-[`org.openehealth.ipf.commons.map.MappingService`](../apidocs/org/openehealth/ipf/commons/map/MappingService.html) interface.
+[`org.openehealth.ipf.commons.map.MappingService`](apidocs/org/openehealth/ipf/commons/map/MappingService.html) interface.
 
 
 ## Dependencies
@@ -57,7 +57,7 @@ When using Spring, you should also depend on:
 
 ## Configuring the Mapping Service
 
-Here is how to configure IPF's [`SpringBidiMappingService`](../apidocs/org/openehealth/ipf/commons/spring/map/SpringBidiMappingService.html) using Spring:
+Here is how to configure IPF's [`SpringBidiMappingService`](apidocs/org/openehealth/ipf/commons/spring/map/SpringBidiMappingService.html) using Spring:
 
 ```xml
 
@@ -88,7 +88,7 @@ Here is how to configure IPF's [`SpringBidiMappingService`](../apidocs/org/opene
 ```
 
 Mapping scripts can also be *dynamically* appended to a global mapping service instance.
-See [Custom Mappings](customMappings.md) for details.
+See [Custom Mappings]({{ site.baseurl }}{% link _pages/customMappings.md %}) for details.
 
 
 ## Configuring the mappings

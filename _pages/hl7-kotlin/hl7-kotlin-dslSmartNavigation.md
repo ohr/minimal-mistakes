@@ -1,10 +1,9 @@
 ---
-title: Smart navigation with the HL7 Groovy DSL
+title: Smart navigation with the HL7 Kotlin DSL
 layout: single
-permalink: /docs/hl7-groovy-dslSmartNavigation/
+permalink: /docs/hl7-kotlin-dslSmartNavigation/
 classes: wide
 ---
-
 
 Accessing HL7 messages usually requires knowledge about the specified message structure,
 which is often not visible by looking at the printed message.
@@ -18,29 +17,29 @@ Smart navigation resolves these problems by assuming reasonable defaults when re
 
 If a repetition operator () is omitted, the first repetition of a group, segment or field is assumed
 
-```groovy
-    assert message.PATIENT_RESULT.PATIENT == message.PATIENT_RESULT(0).PATIENT(0)
+```kotlin
+    assertEquals(message["PATIENT_RESULT"]["PATIENT"], message["PATIENT_RESULT"](0)["PATIENT"](0))
 
-    assert group.NK1(0)[5](0)[1].value == group.NK1[5](0)[1].value
-    assert group.NK1(0)[5](0)[1].value == group.NK1[5][1].value
+    assertEquals(group["NK1"](0)[5](0)[1].value, group["NK1"][5](0)[1].value)
+    assertEquals(group["NK1"](0)[5](0)[1].value, group["NK1"][5][1].value)
 ```
 
 ## Omitting component index
 
 If a component index is omitted, the first component or subcomponent of a composite is assumed.
 
-```groovy
-    def group = message.PATIENT_RESULT.PATIENT
-    assert group.NK1(0)[2][1][1].value == group.NK1(0)[2].value
+```kotlin
+    val group = message["PATIENT_RESULT"]["PATIENT"]
+    assertEquals(group["NK1"](0)[2][1][1].value, group["NK1"](0)[2].value)
 ```
 
 ## Combining smart navigation with finders
 
 Both repetition on component index can be omitted.
 
-```groovy
-    def group = message.PATIENT_RESULT.PATIENT
-    assert group.NK1(0)[5](0)[1].value2 == group.NK1[5].value2
+```kotlin
+    val group = message["PATIENT_RESULT"]["PATIENT"]
+    assertEquals(group["NK1"](0)[5](0)[1].value2, group["NK1"][5].value2)
 ```
 
 But even so, it is still required to specify the full path to the `NK1` segment.
@@ -48,10 +47,10 @@ But even so, it is still required to specify the full path to the `NK1` segment.
 Here, the [iterative functions][hl7v2dslIteration] come to rescue. They e.g. allow to find
 the first structure with a given name within the message:
 
-```groovy
-    def phone = message.PATIENT_RESULT(0).PATIENT(0).NK1(0)[5](0)[1].value
-    phone = message.findNK1()[5].value    // equivalent
+```kotlin
+    val phone1 = message["PATIENT_RESULT"](0)["PATIENT"](0)["NK1"](0)[5](0)[1].value
+    val phone2 = message.asIterable().find { it.name == "NK1" }[5].value    // equivalent
 ```
 
 
-[hl7v2dslIteration]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslIteration.md %}
+[hl7v2dslIteration]: {{ site.baseurl }}{% link _pages/hl7-kotlin/hl7-kotlin-dslIteration.md %}

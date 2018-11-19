@@ -31,4 +31,4 @@ Groovy doesn't require to specify the exact type of a variable, instead the `def
 that saves many explicit type checks and type casts. However, auto-completion support in the IDE is restricted and, due to the lack of explicit type information,
 later refactoring steps can be problematic.
 
-[hl7v2dslRepetitions]: ../hl7-groovy-dslRepetitions/
+[hl7v2dslRepetitions]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslRepetitions.md %}

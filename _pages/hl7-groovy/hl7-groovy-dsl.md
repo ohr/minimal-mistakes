@@ -144,10 +144,10 @@ IPF does not change or extend [HAPI] on how to parse or render HL7 message.
 [Groovy]: https://www.groovy-lang.org
 [Groovy extension module]: https://www.groovy-lang.org/metaprogramming.html#_extension_modules
 [Terser]: https://hapifhir.github.io/hapi-hl7v2//base/apidocs/ca/uhn/hl7v2/util/Terser.html
-[hl7v2dslStructures]: ../hl7-groovy-dslStructures/
-[hl7v2dslFields]: ../hl7-groovy-dslFields/
-[hl7v2dslRepetitions]: ../hl7-groovy-dslRepetitions/
-[hl7v2dslSmart]: ../hl7-groovy-dslSmartNavigation/
-[hl7v2dslIteration]: ../hl7-groovy-dslIteration/
-[hl7v2dslCreating]: ../hl7-groovy-dslCreating/
-[hl7v2dslManipulation]: ../hl7-groovy-dslManipulation/
+[hl7v2dslStructures]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslStructures.md %}
+[hl7v2dslFields]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslFields.md %}
+[hl7v2dslRepetitions]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslRepetitions.md %}
+[hl7v2dslSmart]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslSmartNavigation.md %}
+[hl7v2dslIteration]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslIteration.md %}
+[hl7v2dslCreating]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslCreating.md %}
+[hl7v2dslManipulation]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslManipulation.md %}

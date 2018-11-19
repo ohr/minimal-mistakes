@@ -128,4 +128,4 @@ the following approach using the `setObx5Type()` method can be used:
 ```
 
 
-[hl7v2dslSmart]: ../hl7-groovy-dslSmartNavigation/
+[hl7v2dslSmart]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-dslSmartNavigation.md %}

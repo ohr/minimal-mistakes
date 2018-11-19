@@ -58,7 +58,3 @@ sidebar:
       url: /docs/hl7-kotlin/
     - title: "HL7 Groovy DSL"
       url: /docs/hl7-kotlin-dsl/
-    - title: "Functional Kotlin extensions to HAPI"
-      url: /docs/hl7-kotlin-extensions/
-    - title: "HL7 Message Validation with Kotlin"
-      url: /docs/hl7-kotlin-validation/
