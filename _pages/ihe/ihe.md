@@ -47,11 +47,13 @@ A special case is the MLLP dispatcher component which allows to accept requests 
 IHE Profiles are grouped by their underlying technical foundation, particularly by their *message format* and
 *transport protocol* into IPF modules that can be included as dependencies in the Maven project descriptor:
 
-* [HL7v2-based transactions]
-* [HL7v3-based transactions]
+* [HL7v2-based transactions] (MLLP)
+* [HL7v2-based SOAP transactions]
+* [HL7v3-based transactions] (SOAP)
 * [ebXML transactions]
 * [FHIR transactions]
-
+* [DSMLv2-based transactions]
+* [XACML-based transactions]
 
 The table below references all supported eHealth transactions. Click on the link in the first column for details about
 required dependencies, usage and parameters.
@@ -112,6 +114,9 @@ The basic pattern for producers is to specify the component name in the URI para
 
 [IHE]: https://www.ihe.net
 [HL7v2-based transactions]: {{ site.baseurl }}{% link _pages/ihe/mllp/hl7v2.md %}
+[HL7v2-based SOAP transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7ws/pcd01.md %}
 [HL7v3-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3.md %}
 [ebXML transactions]: {{ site.baseurl }}{% link _pages/ihe/xds/xds.md %}
 [FHIR transactions]: {{ site.baseurl }}{% link _pages/ihe/fhir/fhir.md %}
+[DSMLv2-based transactions]: {{ site.baseurl }}{% link _pages/ihe/hpd/hpd.md %}
+[XACML-based transactions]: {{ site.baseurl }}{% link _pages/ihe/xacml20/xacml20.md %}

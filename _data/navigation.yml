@@ -54,7 +54,7 @@ sidebar:
         url: /docs/hl7-groovy-validation/
   - title: "HL7 and Kotlin"
     children:
-    - title: "HL7 Message Processing with Groovy"
-      url: /docs/hl7-kotlin/
-    - title: "HL7 Groovy DSL"
-      url: /docs/hl7-kotlin-dsl/
+      - title: "HL7 Message Processing with Kotlin"
+        url: /docs/hl7-kotlin/
+      - title: "HL7 Kotlin DSL"
+        url: /docs/hl7-kotlin-dsl/
