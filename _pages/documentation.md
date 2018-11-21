@@ -37,7 +37,7 @@ in the Spring Boot runtime environment.
 [Support for eHealth integration profiles]: {{ site.baseurl }}{% link _pages/ihe/ihe.md %}
 [Groovy]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy.md %}
 [Kotlin]: {{ site.baseurl }}{% link _pages/hl7-kotlin/hl7-kotlin.md %}
-[HL7 Message translation]: {{ site.baseurl }}{% link _pages/hl7v3/hl7v3Translators.md %}
+[HL7 Message translation]: {{ site.baseurl }}{% link _pages/ihe/hl7v3/hl7v3Translators.md %}
 [DICOM Audit Support]: {{ site.baseurl }}{% link _pages/audit.md %}
 [FHIR support]: {{ site.baseurl }}{% link _pages/ihe/fhir/fhir.md %}
 [CDA/MDHT Support]: {{ site.baseurl }}{% link _pages/mdht/mdhtSupport.md %}

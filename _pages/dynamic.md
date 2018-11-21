@@ -122,5 +122,5 @@ all extension modules by default before any other configuration takes place.
 
 [Custom Mappings]: {{ site.baseurl }}{% link _pages/customMappings.md %}
 [Custom HL7 Model Classes]: {{ site.baseurl }}{% link _pages/hl7-groovy/hl7-groovy-customModelClasses.md %}
-[Custom Groovy Extension Modules]: {{ site.baseurl }}{% link _pages/customExtensions.md %}
+[Custom Groovy Extension Modules]: {{ site.baseurl }}{% link _pages/groovy/customExtensions.md %}
 [Custom Route Builders]: {{ site.baseurl }}{% link _pages/customRouteBuilders.md %}
